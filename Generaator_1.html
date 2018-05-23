@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Generator Paroley</title>
+  <link rel="stylesheet" href="style_1.css">
+  <link rel="stylesheet" href="bootstrap.min.css"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header">
+					<h1>Добро пожаловать в генератор паролей</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div align="center">
+					<div class="param">
+						<span name="value-pass">Введите размер пароля от</span>
+						<input type="number" id="min" size="2" name="min" value="8" id="1">
+						<span name="value-pass"> символов до </span>
+						<input type="number" id="max" size="2" name="max" value="10" id="2">
+						<span name="value-pass"> символов </span>
+					</div>
+					<div class="param">
+						<span name="value-pass">Введите количество паролей</span>
+						<input type="number" id="col" size="5" name="col" value="3" id="3">
+					</div>
+				</div>
+				<br>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="out" id="out">
+					</div>
+					<center><input type="button" name="Генератор" value="Генерировать" onclick="gener()"></center>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script src="function.js"></script>
+
